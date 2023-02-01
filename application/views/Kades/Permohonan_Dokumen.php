@@ -17,6 +17,8 @@
         <th scope="col" class="sort" data-sort="nama">NIK</th>
         <th scope="col" class="sort" data-sort="tempat_lahir">Jenis Dokumen</th>
         <th scope="col" class="sort" data-sort="tanggal_lahir">Fungsi</th>
+        <th scope="col" class="sort" >Tanggal Dibutuhkan</th>
+
         <th scope="col">Aksi Upload</th>
         
       </tr>
@@ -31,7 +33,8 @@
           <td><?php echo $dokumen->no_permohonan ?></td>
           <td><?php echo $dokumen->NIK ?></td>
           <td><?php echo $dokumen->jenis_dokumen ?></td>
-          <td><?php echo $dokumen->fungsi ?></td>  
+          <td><?php echo $dokumen->fungsi ?></td> 
+          <td><?php echo $dokumen->tanggal_dokumen ?></td> 
           <td class="text-center mr-3"><a href="<?php echo site_url('Kades/Upload_Dokumen/'); ?>" class="btn btn-warning">Upload Dokumen</a></td>
         </tr>
         </tbody>

@@ -54,13 +54,15 @@ class Masyarakat extends CI_Controller{
 			$NIK = $this->input->post('NIK');//deklarasi			
 			$jenis_dokumen = $this->input->post('jenis_dokumen');//deklarasi
 			$fungsi = $this->input->post('fungsi');//deklarasi
+            $tanggal_dokumen = $this->input->post('tanggal_dokumen');
 			
 
 			$data_insert = array(
 				'no_permohonan' => $no_permohonan,
 				'NIK' => $NIK,
 				'jenis_dokumen' => $jenis_dokumen,
-				'fungsi' => $fungsi
+				'fungsi' => $fungsi,
+                'tanggal_dokumen' => $tanggal_dokumen
 			);
 
 			$this->M_dokumen->Tambah_dokumen($data_insert);

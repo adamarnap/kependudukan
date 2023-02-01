@@ -61,6 +61,15 @@
                   </div>
                 </div>
 
+                <div class="text-muted text-left mt-2 mb-2"><small><b>Tanggal Kegunaan Dokumen</b></small></div>
+                <div class="form-group">
+                  <div class="input-group input-group-merge input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Tanggal dibutuhkannya dokumen ?" name="tanggal_dokumen" type="date" required>
+                  </div>
+                </div>
                 
                 <div class="text-muted font-italic"><small>Pastikan form sudah terisi dengan benar !</small></div>
  
